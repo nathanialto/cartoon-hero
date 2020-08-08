@@ -6,15 +6,17 @@ body{
 
 }
 header{
-    background-color: coral ; 
-    text-align: center;
+    background-color: #7CB9E8;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 h1, h2{
     font-family: 'Bebas Neue', cursive;
 }
+
+/* header styles */
 
 header h1{
     color: white;
@@ -23,9 +25,7 @@ header h1{
 }
 
 header img{
-    border-radius: 200px;
-    width: 300px;
-    border: 20px solid white;
+    width: 250px;
 }
 
 main{
@@ -36,17 +36,19 @@ main{
 
 main img{
     max-width: 100%;
+    margin-bottom: 0px;
 }
 
 h2{
     font-size: 35px;
-    color: salmon;
+    color: #7CB9E8;
     margin: 40px 0 10px;
 }
 
 a{
-    color: salmon
+    color: #7CB9E8;
 }
+
 
 a:hover{
     color: white;
@@ -54,8 +56,10 @@ a:hover{
 }
 
 footer{
-    background-color: coral ; 
+    background-color: #7CB9E8; 
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 footer p{
